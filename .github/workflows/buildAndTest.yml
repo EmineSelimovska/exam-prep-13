@@ -23,6 +23,6 @@ jobs:
     - name: Install dependency
       run: npm install
     - name: Run unit tests
-    - run: npm run test:unit
+      run: npm run test:unit
     - name: Display softuni username
       run: echo 'emines'
